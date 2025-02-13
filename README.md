@@ -31,18 +31,22 @@ Installation
 ------------
 
 1.  Clone the repository or download the script.
+``bash
 `https://github.com/02Manas-jha/status-menu`
 
 1.  Give execution permission to the script.
- `chmod +x status.sh`
+ ``bash
+`chmod +x status.sh`
 
 Usage
 -----
 
 Run the script using:
+``bash
 `./status.sh`
 
 You will be presented with a menu to choose which server statistics you want to check:
+``bash
 `Menu  1) Memory usage  2) CPU load  3) Number of TCP connections  4) Kernel version  5) Check All  0) Exit  Choose an option:` 
 
 Script Breakdown
@@ -70,6 +74,7 @@ Additionally, the script features:
 
 Example Output
 --------------
+``bash
 `   Memory usage on myserver is:                 total        used        free      shared  buff/cache   available  Mem:           7.7Gi       3.2Gi       1.9Gi       230Mi       2.6Gi       4.0Gi  Swap:          2.0Gi        0Mi       2.0Gi  CPU load on myserver is:   12:34:56 up 5 days,  4:20,  2 users,  load average: 0.15, 0.10, 0.08  TCP connections on myserver:   58  Kernel version on myserver is:   5.15.0-56-generic   `
 
 Customization
