@@ -1,4 +1,4 @@
-# Server Status Monitor (Bash Edition)
+# Server Status Monitor
 
 ## Overview
 
