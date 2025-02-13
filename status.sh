@@ -18,6 +18,7 @@ function memory_check(){
         echo ""
 }
 
+
 function cpu_check(){
     echo ""
         echo "CPU load on ${server_name} is: "
